@@ -1,0 +1,11 @@
+{
+  "extends": ["./.eslintrc.base.js"],
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "no-var": "error", // var 금지
+
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }] // console.log() 금지
+  }
+}
